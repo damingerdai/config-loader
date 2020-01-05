@@ -86,14 +86,27 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./config/config.ts":
+/*!**************************!*\
+  !*** ./config/config.ts ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\r\n    profile: 'none'\r\n});\r\n\n\n//# sourceURL=webpack:///./config/config.ts?");
+
+/***/ }),
+
 /***/ "./index.ts":
 /*!******************!*\
   !*** ./index.ts ***!
   \******************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("console.log(\"hello world\");\r\n\n\n//# sourceURL=webpack:///./index.ts?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _config_config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./config/config */ \"./config/config.ts\");\n\r\nconsole.log(_config_config__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\r\nconsole.log(_config_config__WEBPACK_IMPORTED_MODULE_0__[\"default\"].profile);\r\n\n\n//# sourceURL=webpack:///./index.ts?");
 
 /***/ })
 
