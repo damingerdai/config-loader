@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack && node dist/bundle.js",
+    "start": "cross-env NODE_ENV=dev webpack && node dist/bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "arthur ming",
@@ -13,6 +13,7 @@
     "loader-utils": "^1.2.3"
   },
   "devDependencies": {
+    "cross-env": "^6.0.3",
     "ts-loader": "^6.2.1",
     "typescript": "^3.7.4",
     "webpack": "^4.41.5",
