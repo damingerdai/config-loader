@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\r\n    profile: 'dev'\r\n});\n\n//# sourceURL=webpack:///./config/config.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n    profile: 'dev'\n});\n\n//# sourceURL=webpack:///./config/config.ts?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _config_config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./config/config */ \"./config/config.ts\");\n\r\nconsole.log(_config_config__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\r\nconsole.log(_config_config__WEBPACK_IMPORTED_MODULE_0__[\"default\"].profile);\r\n\n\n//# sourceURL=webpack:///./index.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _config_config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./config/config */ \"./config/config.ts\");\n\nconsole.log(_config_config__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\nconsole.log(_config_config__WEBPACK_IMPORTED_MODULE_0__[\"default\"].profile);\nconsole.log(\"development\");\n\n\n//# sourceURL=webpack:///./index.ts?");
 
 /***/ })
 
