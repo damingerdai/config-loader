@@ -7,6 +7,7 @@ module.exports = {
     optimization:{
         nodeEnv:false
     },
+    devtool: 'source-map',
     module: {
         rules: [
             {

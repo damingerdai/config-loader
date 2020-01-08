@@ -94,7 +94,10 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n    profile: 'dev'\n});\n\n//# sourceURL=webpack:///./config/config.ts?");
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ({
+    profile: 'dev'
+});
 
 /***/ }),
 
@@ -106,8 +109,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar config_1 = __webpack_require__(/*! ./config/config */ \"./config/config.ts\");\nconsole.log(config_1.default);\nconsole.log(config_1.default.profile);\nconsole.log(process.env.NODE_ENV === 'dev');\nconsole.log(process.env.APP);\n\n\n//# sourceURL=webpack:///./index.ts?");
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var config_1 = __webpack_require__(/*! ./config/config */ "./config/config.ts");
+console.log(config_1.default);
+console.log(config_1.default.profile);
+console.log(process.env.NODE_ENV === 'dev');
+console.log(process.env.APP);
+
 
 /***/ })
 
 /******/ });
+//# sourceMappingURL=bundle.js.map
