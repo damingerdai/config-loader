@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=dev webpack && node dist/bundle.js",
+    "start": "cross-env NODE_ENV=dev PLAY=a webpack && node dist/bundle.js",
+    "start:dev": "cross-env NODE_ENV=dev ts-node-dev -r tsconfig-paths/register index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "arthur ming",
@@ -16,6 +17,9 @@
     "@types/node": "^13.1.4",
     "cross-env": "^6.0.3",
     "ts-loader": "^6.2.1",
+    "ts-node": "^8.5.4",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "tsconfig-paths": "^3.9.0",
     "typescript": "^3.7.4",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"

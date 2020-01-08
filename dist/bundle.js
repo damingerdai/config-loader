@@ -102,11 +102,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /*!******************!*\
   !*** ./index.ts ***!
   \******************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _config_config__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./config/config */ \"./config/config.ts\");\n\nconsole.log(_config_config__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\nconsole.log(_config_config__WEBPACK_IMPORTED_MODULE_0__[\"default\"].profile);\nconsole.log(\"development\");\n\n\n//# sourceURL=webpack:///./index.ts?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar config_1 = __webpack_require__(/*! ./config/config */ \"./config/config.ts\");\nconsole.log(config_1.default);\nconsole.log(config_1.default.profile);\nconsole.log(process.env.NODE_ENV === 'dev');\nconsole.log(process.env.APP);\n\n\n//# sourceURL=webpack:///./index.ts?");
 
 /***/ })
 

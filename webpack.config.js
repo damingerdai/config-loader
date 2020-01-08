@@ -1,8 +1,12 @@
 const path = require('path');
 
 module.exports = {
+    target:'node',
     entry: './index.ts',
     mode: 'development',
+    optimization:{
+        nodeEnv:false
+    },
     module: {
         rules: [
             {
